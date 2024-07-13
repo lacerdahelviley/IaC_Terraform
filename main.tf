@@ -17,7 +17,8 @@ resource "aws_instance" "app_server" {
   ami           = "ami-03d5c68bab01f3496"
   instance_type = "t2.micro"
   key_name = "iac-helviley"
+
   tags = {
-    Name = "First intance"
+    Name = "terraform Ansible Python"
   }
 }
